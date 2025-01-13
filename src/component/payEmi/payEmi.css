@@ -1,0 +1,116 @@
+.payEmi {
+    width: 50%;
+    margin: 15px auto;
+    margin-bottom: 100px;
+}
+.payEmi ul.nav.nav-tabs {
+    display: flex;
+    justify-content: space-around;
+}
+.payEmicom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 15px;
+    border: 2px solid;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.emi_on_time_history {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.payEmicom .shopcome {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #777676;
+}
+.payEmicom .shopcome buton {
+    cursor: pointer;
+}
+p.emi_on_time_history_month {
+    color: #e51010;
+}
+.emi_on_time_history_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:5px ;
+}
+.emi_on_time_history_product {
+    display: flex;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 15px 10px;
+    justify-content: space-between;
+}
+.emi_on_time_history_product_date p {
+    display: flex;
+    flex-direction: column;
+    width: 65px;
+    align-items: center;
+    line-height: 25px;
+}
+.emi_on_time_history_product_date p span {
+    font-size: 25px;
+}
+p.emi_on_time_product_name_it {
+    font-size: 17px;
+    font-weight: 500;
+}
+.emi_on_time_history_product_payment button {
+    padding: 0;
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 1200px) { 
+    .payEmi {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 767px) { 
+    .payEmi {
+        margin-top: 100px;
+        width: 90%;
+    }
+    .payEmi ul.nav.nav-tabs li.nav-item button.nav-link {
+        padding: 0 5px;
+        font-size: 15px;
+    }
+    .payEmicom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .emi_on_time_history_product {
+        flex-direction: column;
+        text-align: center;
+    }
+    .emi_on_time_history_product_date {
+        display: flex;
+        margin: 10px auto;
+    }
+    p.emi_on_time_product_name_it {
+        margin-bottom: 10px;
+    }
+    .emi_on_time_history_product_payment {
+        margin-top: 10px;
+    }
+    .payEmicom .shopcome {
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+.Addproduct_container{
+    border-radius: 13px ;
+    /* border: 1px solid red; */
+    margin: 2em ;
+    /* margin-left: 4em ; */
+    padding: 1em;
+    /* padding: 2em; */
+    background:rgb(11, 10, 17);
+    /* color:rgb(0, 0, 0) !important; */
+    color:rgb(237, 234, 234)!important;
+}
+label{
+    color: #4563a0;
+    
+}
+ 
+.admin_form_input{
+    background: #232338 !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: large !important;
+}
+ /* input,textarea,select{
+    background: #404042 !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: large !important;
+} */
+
+
+.spacification_cotaniner {
+    /* border: 1px solid red; */
+    margin-top: 1em;
+    background:#3a3f48;
+    display: flex;    
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.spacification > button{
+    /* font-weight: 900 !important; */
+    /* border: 1px solid red; */
+    /* font-size: 1.8em; */
+    height: 2.8em;
+    margin: auto;
+}
+.spacification {
+    display: flex;
+    
+    flex-direction: row;
+   
+    justify-content: center;
+}
+.spacification>label{
+    color: rgb(19, 19, 20);
+}
+.image_container_spacification{
+    /* border: 1px solid red; */
+    background: #f8f8f87b;
+    margin: 1em;
+   width: 90%;
+
+
+}
+ 
+.image_color_container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image_url_container{
+    /* border: 1px solid red; */
+    width: 23em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    
+   
+}
+
+ 

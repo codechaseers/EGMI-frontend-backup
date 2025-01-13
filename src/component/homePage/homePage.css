@@ -1,0 +1,259 @@
+
+img.sliderHomeimg {
+    width: 100%;
+}
+
+/* card page  */
+p{margin: 0;padding: 0;}
+/* .cardsBoxBody {
+    display: flex;
+    width: 100%;
+    margin: 25px auto;
+} */
+
+.cardBox {
+    background: #eff4f7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 7px 8px 23px -20px rgba(0,0,0,0.56);
+
+
+}
+.cardText {
+    background-color: #FAFAFA;
+    padding: 10px 12px;
+    padding-top: 15px;
+    border-radius: 0 0 10px 10px;
+    line-height: normal;
+    max-width: unset;
+    margin: 0;
+    position: relative;
+}
+.cardImg img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+p.cardItemname {
+    height: 16px;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+p.cardItemname, p.cardPrice span.reseantPrice {
+    font-size: 14px;
+    color: #000;
+    letter-spacing: -0.56px;
+    font-weight: 700;
+}
+span.cardLessPrise {
+    text-decoration: line-through;
+    color: #b2b9bf;
+    letter-spacing: -0.48px;
+    font-size: 12px;
+}
+span.priceOf {
+    font-size: 12px;
+    font-weight: bold;
+    color: #12b985;
+}
+p.ratingStars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+p.ratingStars img {
+    width: 16px;
+    height: 16px;
+}
+p.ratingStars img.blueTick {
+    width: 11px;
+    height: 11px;
+}
+
+span.cardEmi {
+    position: absolute;
+    top: -21%;
+    border: 1px solid white;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    height: 32px;
+    width: 97px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    border-radius: 10px!important;
+    padding: 6px 10px!important;
+    font-size: 12px;
+    font-weight: 700;
+    background: #fcc50b;
+    color: #000;
+    letter-spacing: -0.48px;
+}
+p.ratingStars span.imgAdRt, p.ratingStars span.ratingAdq {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48px;
+}
+span.emi_ct {
+    font-size: 9.4px;
+    line-height: 11.45px;
+    padding: 3px 7px;
+    background-color: red;
+    border-radius: 50px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+span.brand_name {
+    display: flex;
+    font-size: 9.4px;
+    line-height: 11.45px;
+    padding: 3px 7px;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    align-items: center;
+  
+}
+
+/* Bestsellers.jsx css only  */
+
+p.des_item {
+    font-size: 15px;
+    height: 37px;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.rcs_buttonSet, .rcs_dotsSet {
+    display: none;
+}
+.rcs_sliderBox {
+    background-color: #fff !important;
+}
+.itemWrapper {
+    margin: 0px 8px !important;
+}
+p.des_item {
+    font-size: 15px;
+    height: 37px;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+span.brand_name {
+    display: flex;
+    font-size: 9.4px;
+    line-height: 11.45px;
+    padding: 3px 7px;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    align-items: center;
+  
+}
+
+@media only screen and (max-width: 1200px) {
+    .cardsBoxBody {
+        flex-wrap: wrap;
+    }
+   
+}
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+@media only screen and (max-width: 540px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

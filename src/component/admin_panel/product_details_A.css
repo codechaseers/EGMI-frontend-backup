@@ -1,0 +1,27 @@
+.A_Product_Details_Container{
+    /* border: 1px solid red; */
+    margin: 1em;
+}
+.Product_imageContainer_A{
+    display: flex;
+     /* border: 1px solid red; */
+    align-items: center;
+ 
+}
+.image_container_A>img{
+    height: 10em;
+    /* border: 1px solid red; */
+    margin-left: 0.9em;
+ 
+}
+.ColorsSection_A{
+    /* border: 1px solid black; */
+}
+.spacificationContainer_A{
+    margin-top: 2em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

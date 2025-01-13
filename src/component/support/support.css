@@ -1,0 +1,100 @@
+.contactUs {
+    width: 100%;
+    display: flex;
+}
+.contactUs .contactUsLeft form .row {
+    margin-bottom: 10px;
+}
+.contactUs .contactUsLeft form.border-right button.btn.submit {
+    background: #1a2024;
+    border-radius: 20px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-transform: initial;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 55px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+/* form_message_success_message */
+
+.form_message_success_message {
+    box-shadow: 0px 1px 10px #25c100;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 50%;
+    margin-top: -75px;
+    background-color: #fff;
+    z-index: 6;
+}
+.form_message_success_message span {
+    font-size: 39px;
+    border: 4px solid #0ec50e;
+    width: 50px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 9px;
+    color: #0ec50e;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+.errordived input.form-control, .errordived textarea.form-control {
+    border-color: #fd3d3d;
+}
+.errordived span.errorOPe {
+    color: #fd3d3d;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 767px) { 
+
+.contactUs {
+    width: 83%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.form_message_success_message {
+    width: 70%;
+}
+}
+
+@media only screen and (max-width: 540px) { 
+    .form_message_success_message {
+        width: 85%;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
