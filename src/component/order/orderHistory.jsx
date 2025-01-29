@@ -16,7 +16,7 @@ const OrderHistory = ({ orderData, i }) => {
       let data = await axios.get(
         ` ${import.meta.env.VITE_BASE_URL}/admin/allproducts/${orderData.productId
         }`
-      );
+      ); 
       if (data) {
         SetProductData(data.data.data);
         SetProductImage(JSON.parse(data.data.data.imageURL));
