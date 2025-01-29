@@ -11,7 +11,7 @@ const OrderHistory = ({ orderData, i }) => {
   const [productData, SetProductData] = useState();
   const [productImage, SetProductImage] = useState();
 
-  const getProductName = async () => {
+  const getProductName = async () => { 
     try {
       let data = await axios.get(
         ` ${import.meta.env.VITE_BASE_URL}/admin/allproducts/${orderData.productId
