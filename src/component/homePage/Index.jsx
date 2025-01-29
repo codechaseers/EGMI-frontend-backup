@@ -1,4 +1,4 @@
-import HoleSloder from "./slider.jsx";
+import HoleSloder from "./Slider.jsx";
 import Category from "./Category.jsx";
 import BrandLogo from "./brandLogo.jsx";
 import Bestsellers from "./Bestsellers.jsx";

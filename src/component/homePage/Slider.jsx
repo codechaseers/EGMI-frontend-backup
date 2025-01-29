@@ -6,7 +6,7 @@ import slide4 from "../../assets/images/homeslider/Web_Banner_11.png";
 import { NavLink } from "react-router-dom";
 function IndividualIntervalsExample() {
   let Offer;
-  let Heading = "Earbuds @ ₹49 ";
+  let Heading = "Earbuds @ ₹49 "; 
   return (
     <>
       <Carousel className="sliderHome">
