@@ -1,8 +1,8 @@
 import Carousel from "react-bootstrap/Carousel";
 import slide1 from "../../assets/images/homeSlider/Web_Banner_9.png";
-import slide2 from "../../assets/images/homeslider/Web_Banner_8.png";
-import slide3 from "../../assets/images/homeslider/Web_Banner_10.png";
-import slide4 from "../../assets/images/homeslider/Web_Banner_11.png";
+import slide2 from "../../assets/images/homeSlider/Web_Banner_8.png";
+import slide3 from "../../assets/images/homeSlider/Web_Banner_10.png";
+import slide4 from "../../assets/images/homeSlider/Web_Banner_11.png";
 import { NavLink } from "react-router-dom";
 function IndividualIntervalsExample() {
   let Offer;
