@@ -46,7 +46,7 @@ function Deals49Now({ Product, Title, Heading ,Offer}) {
     <>
       <h2 className="ExploreBestsellers">
         {Title} <b>{Heading}</b>{" "}
-        {import.meta.env.VITE_BASE_URL}
+    
         {/* {console.log(Heading)} */}
         <NavLink  to={`/wireless-earbuds/?&heading=${encodeURIComponent(
                Heading
